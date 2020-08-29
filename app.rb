@@ -21,7 +21,7 @@ class App < Sinatra::Base
     
     binding.pry
   
-    "#{params[:number1].to_i} #{params[:operation]} #{params[:number2].to_i}"
+    params[:number1].to_i #{params[:operation]} #{params[:number2].to_i}"
   end
 
 end
