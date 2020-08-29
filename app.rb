@@ -19,7 +19,7 @@ class App < Sinatra::Base
   
   get '/:operation/:number1/:number2' do
   
-    erb :operation
+    params[:number1].to_i  params[:operation] 
   end
 
 end
