@@ -14,7 +14,6 @@ class App < Sinatra::Base
     
   get 'say/:number/:phrase' do
     
-    erb :say
   end
   
   get '/:operation/:number1/:number2' do
